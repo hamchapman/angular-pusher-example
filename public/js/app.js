@@ -12,7 +12,7 @@ angular.module('angularMeanPusherApp', [
     });
 
     PusherServiceProvider
-      .setToken('3fcfe807bf8637e26f4a')
+      .setToken('YOUR_APP_KEY')
       .setOptions({});
   })
 
