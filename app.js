@@ -30,7 +30,6 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/users', user.list);
 app.get('/api/items', user.items);
 app.post('/api/items', user.addItem);
 
