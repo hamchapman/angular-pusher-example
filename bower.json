@@ -1,0 +1,12 @@
+{
+  "name": "angular-pusher-test",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular-pusher": "~0.0.7"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="angularMeanPusherApp">
+<head>
+  <title>Angular-Pusher Example</title>
+  <script src="/js/lib/angular/angular.js"></script>
+  <script src="/js/lib/angular/angular-route.js"></script>
+  <script src="/components/angular-pusher/angular-pusher.min.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <button ng-click="addItem()" type="button">Test Pusher</button>
+  <ul>
+    <li ng-repeat="item in items">{{item.message}}</li>
+  </ul>
+  <script src="js/app.js"></script>
+</body>
+</html>
